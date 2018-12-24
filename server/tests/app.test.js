@@ -13,7 +13,9 @@ const todos = [{
   text: 'second test todo'
 }, {
   _id: new ObjectID(),
-  text: 'threed test todo'
+  text: 'threed test todo',
+  completed: true,
+  completedAt: 333
 }
 ];
 
