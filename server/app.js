@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-app.('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Welcome to Todo list');
 });
 
